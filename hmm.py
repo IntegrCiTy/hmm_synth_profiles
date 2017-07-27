@@ -312,6 +312,7 @@ class HiddenMarkovModel(object):
                 _ = tf.summary.histogram(self.T0.name, self.T0)
                 _ = tf.summary.histogram(self.T.name, self.T)
                 _ = tf.summary.histogram(self.E.name, self.E)
+                
         return converged
         
     
